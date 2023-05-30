@@ -1,5 +1,7 @@
 import random
-r = random.randint(1, 100)
+start = input("請輸入最小範圍")
+end = input("請輸入最大範圍")
+r = random.randint(int(start), int(end))
 count = 0
 while True:
     num = input("請猜一個數字")
